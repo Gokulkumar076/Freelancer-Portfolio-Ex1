@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore India - Travel Website</title>
+
+    <style>
+        body {
+            background-color: #eef7f2;
+            color: #263238;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #176b5b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section, div {
+            margin: 20px;
+            padding: 15px;
+        }
+
+        img {
+            width: 400px;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #176b5b;
+            color: white;
+        }
+
+        a {
+            color: #176b5b;
+        }
+
+        footer {
+            background-color: #176b5b;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Module -->
+    <header>
+        <h1>Explore India</h1>
+        <p>Discover beautiful places, cultures and unforgettable experiences.</p>
+
+        <!-- Navigation Links -->
+        <a href="#destinations" style="color:white;">Destinations</a> |
+        <a href="#packages" style="color:white;">Packages</a> |
+        <a href="#contact" style="color:white;">Contact</a>
+    </header>
+
+    <!-- Introduction Module -->
+    <div id="home">
+        <h2>Welcome to Explore India</h2>
+
+        <p>
+            India is a beautiful country with diverse cultures, traditions,
+            historical monuments and natural landscapes.
+        </p>
+
+        <p>
+            From the mountains of the north to the beaches of the south,
+            India offers many exciting destinations for travellers.
+        </p>
+
+        <!-- Descriptive Image -->
+        <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da"
+             alt="Taj Mahal in India">
+
+        <p>
+            <a href="https://www.incredibleindia.gov.in/" target="_blank">
+                Visit Incredible India
+            </a>
+        </p>
+    </div>
+
+    <!-- Destinations Module -->
+    <section id="destinations">
+        <h2>Popular Destinations</h2>
+
+        <p>Some of the most popular places to visit in India are:</p>
+
+        <!-- Ordered Nested List -->
+        <h3>Top Destinations</h3>
+        <ol>
+            <li>Kerala
+                <ol>
+                    <li>Munnar</li>
+                    <li>Alleppey</li>
+                </ol>
+            </li>
+
+            <li>Rajasthan
+                <ol>
+                    <li>Jaipur</li>
+                    <li>Udaipur</li>
+                </ol>
+            </li>
+
+            <li>Tamil Nadu
+                <ol>
+                    <li>Ooty</li>
+                    <li>Kodaikanal</li>
+                </ol>
+            </li>
+        </ol>
+
+        <!-- Unordered Nested List -->
+        <h3>Travel Activities</h3>
+        <ul>
+            <li>Nature
+                <ul>
+                    <li>Hiking</li>
+                    <li>Camping</li>
+                </ul>
+            </li>
+
+            <li>Adventure
+                <ul>
+                    <li>Boating</li>
+                    <li>Trekking</li>
+                </ul>
+            </li>
+
+            <li>Culture
+                <ul>
+                    <li>Temple Visits</li>
+                    <li>Local Festivals</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Description List Module -->
+    <section>
+        <h2>Travel Terms</h2>
+
+        <dl>
+            <dt><strong>Tourism</strong></dt>
+            <dd>Travelling to different places for recreation and exploration.</dd>
+
+            <dt><strong>Destination</strong></dt>
+            <dd>A place that a traveller chooses to visit.</dd>
+
+            <dt><strong>Itinerary</strong></dt>
+            <dd>A planned schedule of activities during a trip.</dd>
+        </dl>
+    </section>
+
+    <!-- Travel Packages Module -->
+    <section id="packages">
+        <h2>Travel Packages</h2>
+
+        <table>
+            <tr>
+                <th>Package</th>
+                <th>Destination</th>
+                <th>Duration</th>
+                <th>Price</th>
+            </tr>
+
+            <tr>
+                <td>Hill Escape</td>
+                <td>Ooty</td>
+                <td>3 Days</td>
+                <td>₹8,000</td>
+            </tr>
+
+            <tr>
+                <td>Kerala Trip</td>
+                <td>Munnar & Alleppey</td>
+                <td>5 Days</td>
+                <td>₹15,000</td>
+            </tr>
+
+            <tr>
+                <td>Royal Rajasthan</td>
+                <td>Jaipur & Udaipur</td>
+                <td>6 Days</td>
+                <td>₹20,000</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Bookmark Module -->
+    <section id="bookmark">
+        <h2>Special Travel Tip</h2>
+
+        <p>
+            Plan your trip early, carry essential documents and always respect
+            the local culture and environment.
+        </p>
+
+        <a href="#home">Back to Home</a>
+    </section>
+
+    <!-- Contact Module -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <p>Email:
+            <a href="mailto:exploreindia@example.com">
+                exploreindia@example.com
+            </a>
+        </p>
+
+        <p>Phone:
+            <a href="tel:+919876543210">
+                +91 98765 43210
+            </a>
+        </p>
+
+        <!-- Clickable Image Link -->
+        <a href="https://www.incredibleindia.gov.in/" target="_blank">
+            <img src="https://images.unsplash.com/photo-1548013146-72479768bada"
+                 alt="Indian monument - Click to explore India">
+        </a>
+
+        <p>Click the image to explore more about India.</p>
+    </section>
+
+    <!-- Footer Module -->
+    <footer>
+        <p>&copy; 2026 Explore India. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
