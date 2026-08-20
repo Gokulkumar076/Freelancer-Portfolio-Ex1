@@ -1,251 +1,235 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explore India - Travel Website</title>
+    <title>Gokul Kumar - Freelancer Portfolio</title>
 
     <style>
         body {
-            background-color: #eef7f2;
-            color: #263238;
+            background-color: #f2f2f2;
+            color: #222;
             font-family: Arial, sans-serif;
         }
 
         header {
-            background-color: #176b5b;
+            background-color: #222;
             color: white;
             padding: 20px;
             text-align: center;
         }
 
-        section, div {
-            margin: 20px;
+        section {
+            background-color: white;
+            margin: 15px;
             padding: 15px;
         }
 
         img {
-            width: 400px;
-            height: 250px;
-            object-fit: cover;
+            width: 200px;
+            height: 200px;
         }
 
         table {
             border-collapse: collapse;
-            width: 80%;
+            width: 70%;
         }
 
         th, td {
-            border: 1px solid #333;
-            padding: 10px;
-            text-align: center;
+            border: 1px solid black;
+            padding: 8px;
         }
 
         th {
-            background-color: #176b5b;
+            background-color: #222;
             color: white;
-        }
-
-        a {
-            color: #176b5b;
         }
 
         footer {
-            background-color: #176b5b;
+            background-color: #222;
             color: white;
             text-align: center;
-            padding: 15px;
+            padding: 10px;
         }
     </style>
 </head>
 
 <body>
 
-    <!-- Header Module -->
+    <!-- Header Section -->
     <header>
-        <h1>Explore India</h1>
-        <p>Discover beautiful places, cultures and unforgettable experiences.</p>
+        <h1>Gokul Kumar</h1>
+        <p>Freelancer | Web Developer</p>
 
-        <!-- Navigation Links -->
-        <a href="#destinations" style="color:white;">Destinations</a> |
-        <a href="#packages" style="color:white;">Packages</a> |
+        <a href="#about" style="color:white;">About</a> |
+        <a href="#projects" style="color:white;">Projects</a> |
         <a href="#contact" style="color:white;">Contact</a>
     </header>
 
-    <!-- Introduction Module -->
-    <div id="home">
-        <h2>Welcome to Explore India</h2>
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
 
         <p>
-            India is a beautiful country with diverse cultures, traditions,
-            historical monuments and natural landscapes.
+            Hello! I am Gokul Kumar, a student and freelancer interested in
+            web development and programming.
         </p>
 
         <p>
-            From the mountains of the north to the beaches of the south,
-            India offers many exciting destinations for travellers.
+            I create simple and useful websites using HTML, CSS and JavaScript.
         </p>
 
-        <!-- Descriptive Image -->
-        <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da"
-             alt="Taj Mahal in India">
+        <!-- Profile Image -->
+        <img src="https://via.placeholder.com/200"
+             alt="Gokul Kumar Profile">
 
         <p>
-            <a href="https://www.incredibleindia.gov.in/" target="_blank">
-                Visit Incredible India
+            <a href="https://github.com/" target="_blank">
+                Visit My GitHub
             </a>
         </p>
-    </div>
+    </section>
 
-    <!-- Destinations Module -->
-    <section id="destinations">
-        <h2>Popular Destinations</h2>
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
 
-        <p>Some of the most popular places to visit in India are:</p>
+        <p>
+            I am passionate about learning new technologies and developing
+            creative websites.
+        </p>
+
+        <!-- Description List -->
+        <dl>
+            <dt><strong>Name</strong></dt>
+            <dd>Gokul Kumar</dd>
+
+            <dt><strong>Role</strong></dt>
+            <dd>Freelancer and Web Developer</dd>
+
+            <dt><strong>Skills</strong></dt>
+            <dd>HTML, CSS, JavaScript, Python</dd>
+        </dl>
+    </section>
+
+    <!-- Skills Section -->
+    <section>
+        <h2>My Skills</h2>
 
         <!-- Ordered Nested List -->
-        <h3>Top Destinations</h3>
         <ol>
-            <li>Kerala
+            <li>Web Development
                 <ol>
-                    <li>Munnar</li>
-                    <li>Alleppey</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
                 </ol>
             </li>
 
-            <li>Rajasthan
+            <li>Programming
                 <ol>
-                    <li>Jaipur</li>
-                    <li>Udaipur</li>
-                </ol>
-            </li>
-
-            <li>Tamil Nadu
-                <ol>
-                    <li>Ooty</li>
-                    <li>Kodaikanal</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
                 </ol>
             </li>
         </ol>
 
         <!-- Unordered Nested List -->
-        <h3>Travel Activities</h3>
+        <h3>Tools I Use</h3>
+
         <ul>
-            <li>Nature
+            <li>VS Code
                 <ul>
-                    <li>Hiking</li>
-                    <li>Camping</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
                 </ul>
             </li>
 
-            <li>Adventure
+            <li>GitHub
                 <ul>
-                    <li>Boating</li>
-                    <li>Trekking</li>
-                </ul>
-            </li>
-
-            <li>Culture
-                <ul>
-                    <li>Temple Visits</li>
-                    <li>Local Festivals</li>
+                    <li>Git</li>
+                    <li>GitHub Pages</li>
                 </ul>
             </li>
         </ul>
     </section>
 
-    <!-- Description List Module -->
-    <section>
-        <h2>Travel Terms</h2>
-
-        <dl>
-            <dt><strong>Tourism</strong></dt>
-            <dd>Travelling to different places for recreation and exploration.</dd>
-
-            <dt><strong>Destination</strong></dt>
-            <dd>A place that a traveller chooses to visit.</dd>
-
-            <dt><strong>Itinerary</strong></dt>
-            <dd>A planned schedule of activities during a trip.</dd>
-        </dl>
-    </section>
-
-    <!-- Travel Packages Module -->
-    <section id="packages">
-        <h2>Travel Packages</h2>
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
 
         <table>
             <tr>
-                <th>Package</th>
-                <th>Destination</th>
-                <th>Duration</th>
-                <th>Price</th>
+                <th>Project</th>
+                <th>Technology</th>
+                <th>Type</th>
             </tr>
 
             <tr>
-                <td>Hill Escape</td>
-                <td>Ooty</td>
-                <td>3 Days</td>
-                <td>₹8,000</td>
+                <td>Personal Portfolio</td>
+                <td>HTML, CSS</td>
+                <td>Website</td>
             </tr>
 
             <tr>
-                <td>Kerala Trip</td>
-                <td>Munnar & Alleppey</td>
-                <td>5 Days</td>
-                <td>₹15,000</td>
+                <td>To-Do List</td>
+                <td>HTML, CSS, JavaScript</td>
+                <td>Web App</td>
             </tr>
 
             <tr>
-                <td>Royal Rajasthan</td>
-                <td>Jaipur & Udaipur</td>
-                <td>6 Days</td>
-                <td>₹20,000</td>
+                <td>Library Manager</td>
+                <td>Python</td>
+                <td>Application</td>
             </tr>
         </table>
     </section>
 
-    <!-- Bookmark Module -->
+    <!-- Bookmark Section -->
     <section id="bookmark">
-        <h2>Special Travel Tip</h2>
+        <h2>My Goal</h2>
 
         <p>
-            Plan your trip early, carry essential documents and always respect
-            the local culture and environment.
+            My goal is to become a skilled full-stack developer and create
+            useful digital solutions.
         </p>
 
         <a href="#home">Back to Home</a>
     </section>
 
-    <!-- Contact Module -->
+    <!-- Contact Section -->
     <section id="contact">
-        <h2>Contact Us</h2>
+        <h2>Contact Me</h2>
 
-        <p>Email:
-            <a href="mailto:exploreindia@example.com">
-                exploreindia@example.com
+        <p>
+            Email:
+            <a href="mailto:gokul@example.com">
+                gokul@example.com
             </a>
         </p>
 
-        <p>Phone:
+        <p>
+            Phone:
             <a href="tel:+919876543210">
                 +91 98765 43210
             </a>
         </p>
 
-        <!-- Clickable Image Link -->
-        <a href="https://www.incredibleindia.gov.in/" target="_blank">
-            <img src="https://images.unsplash.com/photo-1548013146-72479768bada"
-                 alt="Indian monument - Click to explore India">
+        <!-- Clickable Image -->
+        <a href="https://github.com/" target="_blank">
+            <img src="https://via.placeholder.com/200"
+                 alt="GitHub Profile">
         </a>
 
-        <p>Click the image to explore more about India.</p>
+        <p>Click the image to visit GitHub.</p>
     </section>
 
-    <!-- Footer Module -->
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2026 Explore India. All Rights Reserved.</p>
+        <p>&copy; 2026 Gokul Kumar - Freelancer Portfolio</p>
     </footer>
 
 </body>
 </html>
+```
